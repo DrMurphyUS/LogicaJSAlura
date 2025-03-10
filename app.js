@@ -10,7 +10,7 @@ la comparación
 */
 if (numeroUsuario == numeroSecreto) {
     //acertamos fue verdadera la condición
-    alert('Adivinaste el numero');
+    alert(`Adivinaste el número. El número es: ${numeroUsuario}`);
 }
 else
 {
