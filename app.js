@@ -1,5 +1,5 @@
 //Variables
-let numeroSecreto = 6;
+let numeroSecreto = 4;
 let numeroUsuario = prompt("Indicame un numero entre 1 y 10:");
 
 console.log(numeroUsuario);
@@ -14,5 +14,10 @@ if (numeroUsuario == numeroSecreto) {
 }
 else
 {
+    if (numeroUsuario > numeroSecreto){
     //numero equivocado presiona F5 para intentar de nuevo
-    alert("Lo siento te equivocaste")}
+    alert("El número secreto es menor");
+    }else{
+        alert("El numero secreto es mayor");
+    }
+}
