@@ -1,16 +1,16 @@
 //Variables
-let numeroSecreto = 4;
+let numeroSecreto = Math.floor(Math.random()*10)+1;
 let numeroUsuario = 0;
 let intentos = 1;
 //let palabraVeces = 'vez';
 let maximosIntentos = 3;
 
 
-
 while(numeroUsuario != numeroSecreto){
-    numeroUsuario = prompt("Indicame un numero entre 1 y 10:");
-
-    console.log(numeroUsuario);
+    //parseInt convierte a entero
+    numeroUsuario = parseInt(prompt("Indicame un numero entre 1 y 10:"));
+    //typeof nos dice el tupo
+    console.log(typeof(numeroUsuario));
 
     /*
     Este código realiza
